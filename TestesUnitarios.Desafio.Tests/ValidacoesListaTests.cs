@@ -97,7 +97,7 @@ public class ValidacoesListaTests
         // Act
         var resultado = _validacoes.RetornarMenorNumeroLista(lista);
 
-        // Assert
+        // Assertt
         //TODO: Corrigir o Assert.Equal com base no retorno da chamada ao método
         Assert.Equal(-8, resultado);
     }
